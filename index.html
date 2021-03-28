@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Started from the bottom Game</title>
+    <style>
+        canvas {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        div {
+            width: 50%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Collect 20 coins before the time runs out!</h2>
+        <hr>
+        <b>Coins collected:</b> <span id="score"></span> | 
+        <b>Time remaining:</b> <span id="min"></span>:<span id="time"></span>
+        <hr>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js" integrity="sha512-L6Z/YtIPQ7eU3BProP34WGU5yIRk7tNHk7vaC2dB1Vy1atz6wl9mCkTPPZ2Rn1qPr+vY2mZ9odZLdGYuaBk7dQ==" crossorigin="anonymous"></script>
+    <script src="./lib/matter.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
